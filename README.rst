@@ -18,3 +18,5 @@ Content
  * ``nox.shm.Queue`` shared memory queue, useful when using ``multiprocessing`` library,
    when using only one producer and consumer you don't need to use lock = True, if you want to use multiple producers
    and/or consumers set it to True.
+ * ``nox.sqlalchemy.get_compiled_query`` a function for debugging purpose only, give it a query statement and it will
+   return a query string.
